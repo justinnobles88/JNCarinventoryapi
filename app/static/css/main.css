@@ -1,0 +1,132 @@
+/* NavBar Styling Start */
+.topnav {
+    color: black;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-family: "Copperplate", Arial, sans-serif;
+}
+
+.navbar-nav li{
+    font-size: 20px;
+}
+
+.btn-outline-success {
+    border-radius: 15px;
+    border-color: #000000;
+    color: #000000;
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+
+.btn-outline-success:hover{
+    background-color: #5f55d2;
+}
+
+.btn-primary {
+    background-color: #5f55d2;
+    border: #5f55d2;
+}
+
+.mid-page {
+    text-align: center;
+}
+
+/*Logo*/
+.logo{
+    position: relative;
+    left:20px;
+    width: 105px;
+    height: 37px;
+}
+
+
+
+/* Body */
+body{
+    background: linear-gradient(
+        to bottom,
+        lightblue 0%,
+        lightblue 50%,
+        lightgreen 50%,
+        lightgreen 100%
+    );
+    padding-top: 10%;
+}
+
+/* Start of Hero/header Section */
+#header-text{
+    padding: 2vw;
+}
+
+.header-image{
+    width: 82%;
+    max-width: 100%;
+    padding-top: 2vw;
+}
+/* End of Hero/header Section */
+
+.button-links {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button-links:hover {
+    color: #ffffff;
+}
+
+.social {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Start of Middle Section Styles */
+#middle-text{
+    text-align: center;
+    padding: 13vh;
+}
+
+#middle-text h2{
+    padding: 1.5vw;
+}
+/* End of Middle Section styles */
+
+
+/* Start of Features Section Styles */
+#api-image,#graphql-image,#database-image{
+    margin-bottom: 10vh;
+}
+
+#features-section{
+    margin: 8vw;
+    text-align: center;
+}
+/* End of Features Section Styles */
+
+/* Community Section Styles Start */
+#Car-image{
+    width: 60%;
+    max-width: 75%;
+    margin-left: 3vw;
+}
+/* End of Community Section Styles */
+
+
+/* Footer Section Styles Start*/
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+
+#footer-logo{
+    width: 100%;
+    max-width: 100%;
+}
+
+#footer{
+    border-top: 3px solid black;
+    margin-top: 20vh;
+}
